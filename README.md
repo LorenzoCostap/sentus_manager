@@ -1,23 +1,28 @@
 # Sentus Manager
 
-O Sentus Manager é um sistema de gerenciamento desenvolvido em Flutter, criado como um projeto de aprendizado para praticar Dart, Flutter, organização de código e desenvolvimento de sistemas.
+O Sentus Manager é um projeto que desenvolvi em Flutter para colocar em prática o que venho aprendendo sobre Dart e desenvolvimento de aplicações.
 
-## Sobre o sistema
+A ideia surgiu da vontade de criar algo mais completo do que exercícios isolados. Por isso, escolhi desenvolver um sistema de gerenciamento inspirado nas necessidades de pequenos negócios, reunindo clientes, produtos, estoque e pedidos em uma única aplicação.
 
-O aplicativo simula um sistema de gerenciamento para pequenos negócios, permitindo controlar clientes, produtos, estoque e pedidos.
+## Sobre o projeto
 
-### Principais funcionalidades
+Durante o desenvolvimento, procurei simular situações que poderiam acontecer em um sistema real. Um exemplo é a criação de pedidos: o usuário escolhe um cliente, adiciona os produtos e informa as quantidades. O sistema calcula o valor total e, quando o pedido é finalizado, atualiza o estoque automaticamente.
 
-- Cadastro, edição e exclusão de clientes
-- Cadastro, edição e exclusão de produtos
-- Controle de estoque
-- Criação e gerenciamento de pedidos
-- Associação de pedidos aos clientes
-- Cálculo automático do valor dos pedidos
-- Atualização automática do estoque após uma venda
-- Dashboard com informações gerais do sistema
-- Visualização de produtos com estoque baixo
-- Armazenamento dos dados do aplicativo
+Também criei um dashboard para apresentar as principais informações de forma simples, como quantidade de clientes, produtos cadastrados, pedidos realizados, vendas e itens com estoque baixo.
+
+## Funcionalidades
+
+* Cadastro, edição e exclusão de clientes;
+* Cadastro, edição e exclusão de produtos;
+* Organização dos produtos por categorias;
+* Controle de preços e quantidades em estoque;
+* Criação e gerenciamento de pedidos;
+* Associação de pedidos aos clientes;
+* Cálculo automático do valor total;
+* Atualização do estoque depois de cada venda;
+* Identificação de produtos com estoque baixo;
+* Dashboard com um resumo do sistema;
+* Armazenamento dos dados da aplicação.
 
 ## Como funciona
 
@@ -33,14 +38,10 @@ O sistema possui diferentes áreas:
 
 **Estoque:** permite acompanhar os produtos e suas respectivas quantidades disponíveis.
 
-## Tecnologias
+## Tecnologias utilizadas
 
-- Flutter
-- Dart
-- Material Design
+Para desenvolver o projeto, utilizei:
 
-## Objetivo
-
-Este projeto foi desenvolvido principalmente para fins de aprendizado, servindo como prática para conceitos de Dart e Flutter, desenvolvimento de interfaces, gerenciamento de estado, organização de projetos e criação de sistemas CRUD.
-
-O Sentus Manager não possui finalidade comercial e foi desenvolvido como projeto particular de estudo.
+* Flutter;
+* Dart;
+* Material Design.
